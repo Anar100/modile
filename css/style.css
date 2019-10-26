@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.iphone {
+    position: relative;
+    width: 295px;
+    height: 650px;
+    background: #121212;
+    border-radius: 40px;
+}
+
+.screen {
+    position: absolute;
+    top: 60px;
+    
+    bottom: 70px;
+    right: 8px;
+    left: 8px;
+    background: #fff;
+    /* border-radius: 20px; */
+}
+
+.top {
+    position: absolute;
+    top: 25px;
+    left: 120px;
+    border-radius: 5px;
+    height: 3px;
+    width: 40px;
+    background: #fff;
+}
+
+.menu {
+    bottom: 70px;
+    width: 279px;
+    height: 520px;
+    position: absolute;
+    left: 8px;
+}
+
+.music {
+    position: absolute;
+    border-radius: 5px;
+    bottom: 93px;
+    cursor: pointer;
+    left: 222px;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.top1 {
+    position: absolute;
+    border-radius: 100px;
+    height: 3px;
+    width: 3px;
+    background: #fff;
+    top: 15px;
+    left: 140px;
+}
+
+.camera {
+    position: absolute;
+    border-radius: 100px;
+    height: 5px;
+    width: 5px;
+    background: #fff;
+    top: 25px;
+    left: 100px;
+}
+
+.bottom {
+    border-radius: 100px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: #fff;
+    bottom: 15px;
+    left: 127px;
+}
+
+.music1 img{
+    position: absolute;
+    width: 278px;
+    height: auto;
+    bottom: 70px;
+    left: 8px;
+}
+
+.music2 {
+    background: transparent;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 260px;
+    bottom: 80px;
+    
+}
+
+div#play_button {
+    position: absolute;
+    left: 137px;
+    width: 20px;
+    height: 30px;
+    bottom: 176px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.call-menu {
+    position: absolute;
+    left: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    bottom: 95px;
+    background: transparent;
+    width: 45px;
+    height: 45px;
+}
+
+.mesage {
+    position: absolute;
+}
+
+.mesajj {
+   width: 100%;
+   height: auto;
+}
+
+.mesage {
+    position: relative;
+    bottom: 150px;
+    left: 8px;
+    width: 279px;
+    display: none;
+    top: 61px;
+}
+
+.message {
+    width: 50px;
+    height: 50px;
+    border-radius: 9px;
+    background: #7721210a;
+    position: absolute;
+    bottom: 93px;
+    left: 89px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    background: white;
+    border: none;
+    position: absolute;
+    bottom: 9px;
+    left: 95px;
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.kapat {
+    width: 11px;
+    height: 15px;
+    position: absolute;
+    background: transparent;
+    cursor: pointer;
+    top: 15px;
+    left: 8px;
+}
+
+.music1 {
+    display: none;
+}
+
+.stopbtn {
+    position: absolute;
+    left: 135px !important;
+    bottom: 140px !important;
+    color: #564a4a;
+    font-size: 30px !important;
+}
+
+.telefonkapat {
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background: black;
+    top: 135px;
+    left: 287px;
+}
+
+.vol1 {
+    left: -3px;
+    cursor: pointer;
+    background: black;
+    height: 30px;
+    position: absolute;
+    width: 10px;
+    top: 115px;
+}
+
+.vol2 {
+    left: -3px;
+    cursor: pointer;
+    background: black;
+    height: 30px;
+    position: absolute;
+    width: 10px;
+    top: 150px;
+}
